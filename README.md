@@ -38,7 +38,6 @@ Este projeto foi desenvolvido como parte de um **desafio técnico** com o objeti
 
 
 ---
-
 ## 🧱 Estrutura do Projeto
 
 ```
@@ -125,7 +124,6 @@ case-anka-tech/
 ![image](https://github.com/user-attachments/assets/29f26d31-936a-446e-bd8a-26e972e3f0fa)
 
 ---
-
 ## 🛠️ Tecnologias Utilizadas
 
 ### Backend
@@ -146,7 +144,6 @@ case-anka-tech/
 * **CSS Modules**
 
 ---
-
 ## ⚙️ Como Executar o Projeto
 
 ### 📦 Backend (com Docker)
@@ -178,7 +175,6 @@ npx prisma migrate dev --name init
 > Isso criará as tabelas `Client` e `Asset` no banco de dados MySQL.
 
 ---
-
 ### 🖥️ Frontend
 
 1. Acesse a pasta do frontend:
@@ -206,7 +202,6 @@ http://localhost:3000
 ```
 
 ---
-
 ## 🔗 Endpoints da API
 
 ### Clientes
@@ -281,7 +276,6 @@ model Asset {
 ```
 
 ---
-
 ## 🥯 Testes Realizados
 
 * Testado via **Postman** (API)
@@ -290,7 +284,6 @@ model Asset {
 * Requisições integradas com **Axios** no frontend
 
 ---
-
 ## 📂 Scripts importantes
 
 ### Prisma (dentro do container backend)
@@ -301,7 +294,6 @@ npx prisma migrate dev --name init
 ```
 
 ---
-
 ## 📎 Observações Finais
 
 * **Não foi necessário containerizar o frontend**, conforme descrito no desafio.
@@ -326,8 +318,12 @@ Optei por implementar um CRUD completo de ativos com persistência no banco porq
 
 Embora o case mencione "lista fixa", entendi que essa referência era ao exemplo inicial, não a uma limitação técnica.
 
----
+### Sobre a seguranca
 
+Alguns arquivos eu subi no repositorio e deveriam estar no .gitignore, mas resolvi deixar pois os avaliadores podem analisar tudo o que eu fiz. 
+
+
+---
 ## 👨‍💻 Autor
 
 * Nome: **Ryan**
