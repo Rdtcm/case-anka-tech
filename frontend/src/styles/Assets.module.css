@@ -1,0 +1,81 @@
+.container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 1rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 2rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table thead {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .noAssets {
+    text-align: center;
+    color: #6b7280;
+    padding: 2rem 0;
+  }
+
+  .dataAssets {
+    text-align: center;
+    color: #000;
+    padding: 2rem 0;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #1e40af;
+  }
+
+  .deleteButton {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }
+  
+  

@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: 3#NkaS3nHa!3001
+      MYSQL_DATABASE: anka
+      MYSQL_USER: ankadev
+      MYSQL_PASSWORD: 3#NkaS3nHa!3001
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+
+  backend:
+    build: .
+    working_dir: /app
+    command: ["npm", "run", "dev"]
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+volumes:
+  db_data:
