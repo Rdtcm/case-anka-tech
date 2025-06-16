@@ -1,6 +1,6 @@
 # 💼 Sistema de Gerenciamento de Clientes e Ativos Financeiros
 
-Este projeto foi desenvolvido como parte de um **desafio técnico** com o objetivo de construir uma aplicação web fullstack que gerencie **clientes** e seus **ativos financeiros**, com cadastro, exibição e associação entre eles.
+Este projeto foi desenvolvido como parte de um **desafio técnico** com o objetivo de construir uma aplicação web fullstack que gerencie **clientes** e seus **ativos financeiros** estaticos, com cadastro, exibição e associação entre eles.
 
 ## 📌 Funcionalidades
 
