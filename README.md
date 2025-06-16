@@ -318,10 +318,6 @@ Optei por implementar um CRUD completo de ativos com persistência no banco porq
 
 Embora o case mencione "lista fixa", entendi que essa referência era ao exemplo inicial, não a uma limitação técnica.
 
-### Sobre a seguranca
-
-Alguns arquivos eu subi no repositorio e deveriam estar no .gitignore, mas resolvi deixar pois os avaliadores podem analisar tudo o que eu fiz. 
-
 
 ---
 ## 👨‍💻 Autor
